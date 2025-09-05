@@ -13,3 +13,10 @@ go
 create DATABASE DataWarehouse;
 go
 use Datawarehouse;
+
+
+create schema Bronze;
+go
+create schema Silver;
+go
+create schema Gold;
